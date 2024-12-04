@@ -872,7 +872,7 @@ Banner Style
 
 .main-banner:after {
   content: '';
-  background-image: url(../images/baner-dec-left.png);
+  background-image: url(../images/baner-dec-left1.png);
   background-repeat: no-repeat;
   position: absolute;
   left: 0;
@@ -883,7 +883,7 @@ Banner Style
 
 .main-banner:before {
   content: '';
-  background-image: url(../images/banner-right-image.png);
+  background-image: url(../images/banner-right-image1.png);
   background-repeat: no-repeat;
   background-size: cover;
   position: absolute;
@@ -1168,7 +1168,7 @@ Portfolio
 
 .our-portfolio .item .hover-effect {
   position: absolute;
-  background-image: url(../images/hover-bg.png);
+  background-image: url(../images/hover-bg1.png);
   background-repeat: no-repeat;
   background-size: cover;
   transition: all .5s;
@@ -1188,13 +1188,13 @@ Portfolio
 .our-portfolio .item .hover-effect .inner-content h4 {
   font-size: 20px;
   font-weight: 700;
-  color: #F0F4F1;
+  color: #565D56;
   margin-bottom: 15px;
 }
 
 .our-portfolio .item .hover-effect .inner-content span {
   font-size: 15px;
-  color: #F0F4F1;
+  color: #383B39;
 }
 
 .our-portfolio .item .thumb img {
@@ -1379,15 +1379,15 @@ Pricing
 }
 
 .pricing-tables .first-item {
-  background-image: url(../images/first-plan-bg.png);
+  background-image: url(../images/first-plan-bg1.png);
 }
 
 .pricing-tables .second-item {
-  background-image: url(../images/second-plan-bg.png);
+  background-image: url(../images/second-plan-bg1.png);
 }
 
 .pricing-tables .third-item {
-  background-image: url(../images/third-plan-bg.png);
+  background-image: url(../images/third-plan-bg1.png);
 }
 
 
@@ -1414,7 +1414,7 @@ Subscribe
 
 .subscribe .inner-content:after {
   content: '';
-  background-image: url(../images/subscribe-dec.png);
+  background-image: url(../images/subscribe-dec1.png);
   position: absolute;
   width: 195px;
   height: 138px;
@@ -1725,7 +1725,7 @@ form#contact {
   margin-left: -100px;
   position: relative;
   z-index: 2;
-  background-image: url(../images/contact-form-bg.png);
+  background-image: url(../images/contact-form-bg1.png);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
