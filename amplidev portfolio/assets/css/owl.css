@@ -86,12 +86,15 @@
     -ms-user-select: none;
     user-select: none; }
   .owl-carousel.owl-grab {
-    cursor: move;
-    cursor: grab; }
+    /* cursor: move; */
+    /* cursor: grab;  */
+  }
   .owl-carousel.owl-rtl {
-    direction: rtl; }
+    /* direction: rtl;  */
+  }
   .owl-carousel.owl-rtl .owl-item {
-    float: right; }
+    /* float: right;  */
+  }
 
 /* No Js */
 .no-js .owl-carousel {
