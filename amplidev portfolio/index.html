@@ -58,9 +58,8 @@
               <li class="scroll-to-section"><a href="#top" class="active">Home</a></li>
               <li class="scroll-to-section"><a href="#services">Services</a></li>
               <li class="scroll-to-section"><a href="#about">About</a></li>
-              <li class="scroll-to-section"><a href="#portfolio">Portfolio</a></li>
-              <li class="scroll-to-section"><a href="#video">Videos</a></li> 
-              <li class="scroll-to-section"><a href="#contact">Contact Us</a></li> 
+              <li class="scroll-to-section"><a href="#video">Projects</a></li>
+              <!-- <li class="scroll-to-section"><a href="#contact">Contact Us</a></li>  -->
               <li class="scroll-to-section"><div class="main-red-button-hover"><a href="#contact">Contact Us Now</a></div></li> 
             </ul>        
             <a class='menu-trigger'>
@@ -224,8 +223,10 @@
         <div class="col-lg-6">
           <div class="section-heading">
             <h2>Why <em>Choose Us </em>?</h2>
-            <p>At Amplidev, we deliver innovative, tailored tech solutions to meet your business needs. From full-stack development to AI and cloud services, we prioritize quality, transparency, and client success. Our expert team is dedicated to helping businesses innovate, scale, and thrive in today's competitive landscape.</p>
-          </div>
+            <p style="font-size: 20px;">
+              At Amplidev, we deliver innovative, tailored tech solutions to meet your business needs. From full-stack development to AI and cloud services, we prioritize quality, transparency, and client success. Our expert team is dedicated to helping businesses innovate, scale, and thrive in today's competitive landscape.
+          </p>
+                    </div>
         </div>
       </div>
     </div>
@@ -713,7 +714,7 @@
           </div>
         </div>
         <div class="col-lg-5 align-self-center">
-          <form id="contact" action="" method="get">
+          <form id="contact">
             <div class="row">
               <div class="col-lg-12">
                 <fieldset>
@@ -722,12 +723,12 @@
               </div>
               <div class="col-lg-12">
                 <fieldset>
-                  <input type="tel" id="contact" name="contact" pattern="^[6-9][0-9]{9}$" maxlength="10" placeholder="Enter contact number (+91)" required>
+                  <input type="text" id="contact" name="contact" placeholder="Enter contact number (+91)" required>
                 </fieldset>
               </div>
               <div class="col-lg-12">
                 <fieldset>
-                  <input type="text" name="email" id="email" pattern="[^ @]*@[^ @]*" placeholder="Your Email" required="">
+                  <input type="email" name="email" id="email" pattern="[^ @]*@[^ @]*" placeholder="Your Email" required="">
                 </fieldset>
               </div>
               <div class="col-lg-12">
@@ -739,6 +740,8 @@
                 <fieldset>
                   <button type="submit" id="form-submit" class="main-button">Submit Request</button>
                 </fieldset>
+
+
               </div>
             </div>
           </form>
@@ -763,13 +766,12 @@
         <div class="col-lg-3">
           <div class="about footer-item">
             <div class="logo">
-              <a href="#"><img src="assets/images/logo.png" alt="Onix Digital TemplateMo"></a>
+              <a href="#"><img src="assets/images/ad-logo.png" alt="Amplidev Solutions"></a>
             </div>
-            <a href="#">info@company.com</a>
+            <a href="#">amplidevv@gmail.com</a>
             <ul>
-              <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-              <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-              <li><a href="#"><i class="fa fa-behance"></i></a></li>
+              <li><a href="https://www.linkedin.com/in/amplidev-solutions-54b587332/"><i class="fa fa-linkedin"></i></a></li>
+              <li><a href="https://api.whatsapp.com/send?phone=7900161060"><i class="fa fa-whatsapp"></i></a></li>
               <li><a href="#"><i class="fa fa-instagram"></i></a></li>
             </ul>
           </div>
@@ -778,33 +780,37 @@
           <div class="services footer-item">
             <h4>Services</h4>
             <ul>
-              <li><a href="#">SEO Development</a></li>
-              <li><a href="#">Business Growth</a></li>
-              <li><a href="#">Social Media Managment</a></li>
               <li><a href="#">Website Optimization</a></li>
-            </ul>
+              <li><a href="#">Business Growth</a></li>
+              <li><a href="#">E-commerce Development</a></li>
+              <li><a href="#">SEO Development</a></li>
           </div>
         </div>
         <div class="col-lg-3">
           <div class="community footer-item">
-            <h4>Community</h4>
+            <h4>About Us
+            </h4>
             <ul>
+              <li><a href="#pricing">Our Plans</a></li>
+              <li><a href="#portfolio">Our Team</a></li>
+
+              
+            </ul>
+          </div>
+          
+        </div>
+        <div class="col-lg-3">
+          <div class="community footer-item">
+            <h4></h4>
+            <!-- <ul>
               <li><a href="#">Digital Marketing</a></li>
               <li><a href="#">Business Ideas</a></li>
               <li><a href="#">Website Checkup</a></li>
               <li><a href="#">Page Speed Test</a></li>
-            </ul>
+            </ul> -->
           </div>
         </div>
         <div class="col-lg-3">
-          <div class="subscribe-newsletters footer-item">
-            <h4>Subscribe Newsletters</h4>
-            <p>Get our latest news and ideas to your inbox</p>
-            <form action="#" method="get">
-              <input type="text" name="email" id="email" pattern="[^ @]*@[^ @]*" placeholder="Your Email" required="">
-              <button type="submit" id="form-submit" class="main-button "><i class="fa fa-paper-plane-o"></i></button>
-            </form>
-          </div>
         </div>
         <div class="col-lg-12">
           <div class="copyright">
@@ -844,6 +850,40 @@
           $(".naccs ul").height(listItemHeight + "px");
         }
     });
+
+    
+                        const submitEvent = document.querySelector('form');
+                        submitEvent.addEventListener('submit',async function(e) {
+                            e.preventDefault();
+                            const formURL = 'https://docs.google.com/forms/d/e/1FAIpQLSdVbi4xds4rQYBtW-A4MFYqQ9573Jf2eUlKPLJNGnz_Stv_bg/formResponse'
+                            ;
+                            const formData = new FormData();
+                            formData.append('entry.2005620554', document.getElementById('name').value);
+                            formData.append('entry.1166974658', document.getElementById('contact').value);
+                            formData.append('entry.1045781291', document.getElementById('email').value);
+                            formData.append('entry.1065046570', document.getElementById('website').value);
+                            // formData.append('entry.964566813', document.getElementById('phone_number').value);
+                            try {
+                                const response = await fetch(formURL, {
+                                    method: 'POST',
+                                    mode: 'no-cors',
+                                    body: formData
+                                });
+            
+                                alert('Thank you! Your response has been submitted.');
+                                document.querySelector('form').reset();
+                            } catch (error) {
+                                // Handle errors
+                                // alert(`Error submitting the form. Please try again. ${error}`);
+                                console.error(error);
+                            }
+                            
+                        })
+                    
+            
+                   
+    
+
   </script>
 </body>
 </html>
