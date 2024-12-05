@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /private/
+Disallow: /checkout/
+Allow: /public/
+Sitemap: https://www.amplidev.live/sitemap.xml
