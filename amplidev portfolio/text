@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Meta Description for SEO -->
+    <meta name="description" content="Amplidev Solutions offers top-quality web development, design, and digital solutions for businesses. Serving clients globally with custom and responsive solutions.">
+    
+    <!-- Meta Keywords (Optional) -->
+    <meta name="keywords" content="web development, digital solutions, web design, SEO services, Amplidev Solutions">
+
+    <!-- Meta Author (Optional) -->
+    <meta name="author" content="Amplidev Solutions">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <!-- Title Tag (SEO important) -->
+    <title>Amplidev Solutions - Web Development & Digital Services</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" href="assets/css/fontawesome.css">
+    <link rel="stylesheet" href="assets/css/templatemo-onix-digital.css">
+    <link rel="stylesheet" href="assets/css/animated.css">
+    <link rel="stylesheet" href="assets/css/owl.css">
+
+    <!-- Optional: Structured Data for Local Business (Schema.org) -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Amplidev Solutions",
+        "url": "https://amplidev.live",
+        "logo": "https://amplidev.live/assets/images/logo.png",
+        "sameAs": [
+          "https://www.facebook.com/amplidev",
+          "https://twitter.com/amplidev"
+        ],
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Your Street Address",
+          "addressLocality": "Your City",
+          "addressRegion": "Your State",
+          "postalCode": "Your Postal Code",
+          "addressCountry": "Your Country"
+        },
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "+1234567890",
+          "contactType": "Customer Service",
+          "areaServed": "Your Region"
+        }
+      }
+    </script>
+  </head>
+  
+  <body>
+    <!-- Body content goes here -->
+
+    <!-- Example of image with alt text for SEO -->
+    <img src="assets/images/website-development.jpg" alt="Professional Web Development Services by Amplidev Solutions">
+
+    <!-- Example of header tags (H1, H2, etc.) -->
+    <header>
+      <h1>Amplidev Solutions - Your Partner in Web Development and Digital Services</h1>
+      <h2>Top Web Development and Design Solutions for Your Business</h2>
+    </header>
+
+    <!-- More content here -->
+
+  </body>
+
+</html>
