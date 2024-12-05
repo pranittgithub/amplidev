@@ -968,9 +968,10 @@ background: linear-gradient(90deg, rgba(197,205,199,1) 0%, rgba(86,93,86,1) 35%,
   transition: all .5s;
 }
 
-.main-banner .active:before {
-  color: #9DA69F  border-bottom: 3px solid #9DA69F}
-
+main-banner .active:before {
+  color: #9DA69F; /* Added a semicolon here */
+  border-bottom: 3px solid #9DA69F;
+}
 
 /* 
 ---------------------------------------------
